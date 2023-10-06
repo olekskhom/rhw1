@@ -6,7 +6,6 @@ export const App = () => {
   return (
     <div>
       <Profile />
-      <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
     </div>
   );
